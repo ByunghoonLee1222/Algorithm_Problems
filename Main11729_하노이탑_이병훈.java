@@ -33,7 +33,7 @@ public class Main11729_하노이탑_이병훈 {
 		int T = sc.nextInt();
 		// ex t =2
 		hanoi(T,from,temp,to);
-		System.out.println(count+"\n"+sb.toString());
+		System.out.println(count+"\n"+sb);
 		
 		sc.close();
 
