@@ -59,9 +59,6 @@ public class Main_7576_토마토_이병훈 {
 			}
 		}
 		System.out.println(answer);
-//		for (int i = 0; i < N; ++i) {
-//			System.out.println(Arrays.toString(box[i]));
-//		}
 
 	}
 	private static void bfs() {

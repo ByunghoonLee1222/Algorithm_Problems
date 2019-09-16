@@ -62,6 +62,7 @@ public class Main_2178_미로탐색_이병훈 {
 				if (dx >= 0 && dx < N && dy >= 0 && dy < M &&
 						arr[dx][dy] == 1 && !visited[dx][dy]) {
 					visited[dx][dy]=true;
+
 					q.add(new Node(dx,dy,n.count+1));
 				}
 			}

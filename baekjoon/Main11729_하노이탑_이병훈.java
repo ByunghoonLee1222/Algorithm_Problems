@@ -1,4 +1,4 @@
-package algo;
+package baekjoon;
 
 import java.util.Scanner;
 
@@ -10,6 +10,7 @@ public class Main11729_하노이탑_이병훈 {
 	public static final int to = 3;
 	static int count=0;
 	static StringBuffer sb = new StringBuffer();
+	
 	public static void hanoi(int n, int from, int temp, int to) {
 
 		if (n == 1) {
@@ -31,11 +32,11 @@ public class Main11729_하노이탑_이병훈 {
 		Scanner sc = new Scanner(System.in);
 		// 원판 개수
 		int T = sc.nextInt();
-		// ex t =2
 		hanoi(T,from,temp,to);
 		System.out.println(count+"\n"+sb);
 		
 		sc.close();
+	
 
 	}
 
